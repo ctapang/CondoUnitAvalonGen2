@@ -1,3 +1,5 @@
+Centerus, Inc.
+
 We are putting this up as another entry in the contest. All design materials will be made available to the public if we win Avalon's contest.
 
 Features
@@ -11,3 +13,7 @@ Features
 •Temperature monitoring using the PIC32MX on-chip thermometer.
 •Uses a 25.000MHz oscillator module (instead of a crystal and low slew-rate logic used in ref design) for more reliable operation.
 •Same form-factor as original Gen1 hash card so that the same heat-sink can be used.
+
+Status as of Dec. 2, 2013
+
+We are just about to receive this revision of the PCB design from the assembler today. We have written an initial version of the firmware for the PIC32MX micro-controller, and are just about to test it. We figure we need a couple more days to get it hashing.

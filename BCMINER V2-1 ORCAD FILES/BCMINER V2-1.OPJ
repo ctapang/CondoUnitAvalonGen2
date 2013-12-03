@@ -1,0 +1,250 @@
+(ExpressProject "BCMINER V1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\centerus.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (EXPORT_Scope "0")
+    (EXPORT_Contents "0")
+    (EXPORT_File_Name
+       "C:\Documents and Settings\Luis V\Desktop\oDesk\Centerus\Avalon2\BCMINER V2-1.EXP")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\Documents and Settings\Luis V\Desktop\oDesk\Centerus\Avalon2\BCMINER V2-1.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Description}\t{PartNum}\t{Manufacturer}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tValue\tDescription\tPart Number\tManufacturer")
+    (BOM_Include_File
+       "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\BCMINER V1\BCMINER V1.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "3")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "C:\Documents and Settings\Luis V\Desktop\oDesk\Centerus\Avalon2\BCMINER V2-1.DRC")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "BCMINER V2-1.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "C:\Documents and Settings\Luis V\Desktop\oDesk\Centerus\BCMINER V1\BCMINER V1-2.SWP")
+    (Backannotation_TAB "1")
+    (FALSE)
+    (TRUE)
+    (File ".\bcminer v2-1.dsn"
+      (Type "Schematic Design"))
+    (FALSE)
+    (FALSE)
+    (TRUE)
+    (Board_sim_option "VHDL_flow")
+    ( "TRUE"))
+  (Folder "Outputs"
+    (File ".\bcminer v2-1.bom"
+      (Type "Report"))
+    (File ".\bcminer v2-1.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\bcminer v2-1.exp"
+      (Type "Report"))
+    (File ".\bcminer v2-1.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CONN TRBLK 6"
+      (FullPartName "CONN TRBLK 6.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CONN TRBLK 4"
+      (FullPartName "CONN TRBLK 4.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (7408
+      (FullPartName "7408.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    (74LVC74/SO
+      (FullPartName "74LVC74/SO.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\LATCH.OLB")
+      (DeviceIndex "0"))
+    (74LVC02/SO
+      (FullPartName "74LVC02/SO.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "0"))
+    ("CONN PCB 4"
+      (FullPartName "CONN PCB 4.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RT9187
+      (FullPartName "RT9187.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\CENTERUS.OLB")
+      (DeviceIndex "0"))
+    (A3255-Q48
+      (FullPartName "A3255-Q48.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\CENTERUS.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PIC32MX250F128B
+      (FullPartName "PIC32MX250F128B.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\CENTERUS.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM10011
+      (FullPartName "LM10011.Normal")
+      (LibraryName
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\CENTERUS.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("4 HEADER"
+      (FullPartName "4 HEADER.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN PWR 3x2-H"
+      (FullPartName "CONN PWR 3x2-H.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_10.5\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Documents and Settings\Luis V\Desktop\oDesk\Centerus\Avalon2\bcminer v2-1.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 641 -4 -30 20 364 24 459"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 66 1188 87 552")
+        (Scroll "0 103")
+        (Zoom "54")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\BCMINER V2-1.DSN")
+      (Schematic "BCMINER V2-1")
+      (Page "PAGE05 - CONTROLLER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 88 1210 116 581")
+        (Scroll "438 525")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\BCMINER V2-1.DSN")
+      (Schematic "BCMINER V2-1")
+      (Page "PAGE03 - HASH CHIPS 5-8"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 110 1232 145 610")
+        (Scroll "0 40")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\BCMINER V2-1.DSN")
+      (Schematic "BCMINER V2-1")
+      (Page "PAGE02 - HASH CHIPS 1-4"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 132 1254 174 639")
+        (Scroll "0 72")
+        (Zoom "53")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\BCMINER V2-1.DSN")
+      (Schematic "BCMINER V2-1")
+      (Page "PAGE 01 - POWER SUPPLIES"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 154 1276 203 668")
+        (Scroll "0 370")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\LUIS V\DESKTOP\ODESK\CENTERUS\AVALON2\BCMINER V2-1.DSN")
+      (Schematic "BCMINER V2-1")
+      (Page "PAGE04 - HASH CHIPS 9-10")))
+  (MPSSessionName "Luis V"))

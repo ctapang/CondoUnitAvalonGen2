@@ -1,18 +1,18 @@
 Centerus, Inc.
 
-We are putting this up as another entry in the contest. All design materials will be made available to the public if we win Avalon's contest.
+Condo Unit PCB and Firmware
 
 Features
 
-•Converts Gen2's CONFIG and REPORT signals into high-speed SPI protocol for direct connection to SPI pins of on-board PIC32 Microcontroller.
-•Power supply voltage is software-adjustable from 0.9V to 1.1V, in 64 steps. We used the LM10011 from TI for this.
-•Card has on-board USB controller, available through the PIC32MX chip.
-•Uses PIC32MX microcontroller, which has on-chip SPI and USB peripherals.
-•Uses only high slew-rate SN74LVC glue logic.
-•Compatible with either BFGMiner or CGMiner.
-•Temperature monitoring using the PIC32MX on-chip thermometer.
-•Uses a 25.000MHz oscillator module (instead of a crystal and low slew-rate logic used in ref design) for more reliable operation.
-•Same form-factor as original Gen1 hash card so that the same heat-sink can be used.
+ï¿½Converts Gen2's CONFIG and REPORT signals into high-speed SPI protocol for direct connection to SPI pins of on-board PIC32 Microcontroller.
+ï¿½Power supply voltage is software-adjustable from 0.9V to 1.1V, in 64 steps. We used the LM10011 from TI for this.
+ï¿½Card has on-board USB controller, available through the PIC32MX chip.
+ï¿½Uses PIC32MX microcontroller, which has on-chip SPI and USB peripherals.
+ï¿½Uses only high slew-rate SN74LVC glue logic.
+ï¿½Compatible with either BFGMiner or CGMiner.
+ï¿½Temperature monitoring using the PIC32MX on-chip thermometer.
+ï¿½Uses a 25.000MHz oscillator module (instead of a crystal and low slew-rate logic used in ref design) for more reliable operation.
+ï¿½Same form-factor as original Gen1 hash card so that the same heat-sink can be used.
 
 Status as of Dec. 2, 2013
 
